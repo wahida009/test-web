@@ -1,0 +1,60 @@
+h1 {
+  background-color: #FFC869;
+  color: white;
+  font-family: helvetica;
+  text-align: center;
+}
+h2 {
+  color: #4B2603;
+  font-family: helvetica;
+  text-align: center;
+}
+body {
+background-image: url("image/mem.jpg");
+background-color: black;
+}
+.topnav {
+  width:850px;
+  margin:0 auto;
+  list-style:none;
+  background-color: #Eff5f7;
+  overflow: hidden;
+  font-family: helvetica;
+}
+
+.topnav a {
+  float: left;
+  color: #cb5e38;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: maroon;
+}
+
+.topnav a.active {
+  background-color: 914A16;
+  color: #f8e1dc;
+}
+p {
+  color: black;
+  font-family: helvetica;
+  font-size: 18px;
+  text-align: center;
+  background-color: #F3D7BC;
+}
+h3 {
+  color: #4B2603;
+  font-family: helvetica;
+  text-align: center;
+  font-size: 25px;
+}
+.hearts::after {
+    content: '💗';
+    animation-name: hearts;
+
+}
